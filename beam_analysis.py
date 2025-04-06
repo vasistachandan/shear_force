@@ -1,6 +1,6 @@
 """
 Moving Load Analysis for Simply Supported Beam using Influence Line Diagram
-Author: [Your Name]
+Author: [Chandan K Vaista]
 Purpose: Calculate maximum reactions, shear forces, and bending moments for a simply supported beam
          subjected to moving loads using the influence line diagram concept.
 """
