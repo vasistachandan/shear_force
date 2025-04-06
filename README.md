@@ -1,8 +1,8 @@
-# 📐 Moving Load Analysis for Simply Supported Beam
+# Moving Load Analysis for Simply Supported Beam
 
 This Python project performs **moving load analysis** on a **simply supported beam** using the **Influence Line Diagram** concept. It calculates maximum reactions at supports, shear forces, and bending moments under two moving point loads.
 
-## 📊 Features
+## Features
 
 - Computes maximum:
   - Reaction forces at supports A and B
@@ -15,7 +15,7 @@ This Python project performs **moving load analysis** on a **simply supported be
 - Interactive CLI input
 - Visual graphs using `matplotlib`
 
-## 📦 Installation
+## Installation
 
 First, clone the repository or download the Python script.
 
@@ -24,13 +24,13 @@ Install required dependencies:
 pip install numpy matplotlib
 ```
 
-## ▶️ How to Use
+## How to Use
 Run the Python file using any terminal or command prompt:
 ```bash
 python beam_analysis.py
 ```
 
-## 🧾 Then Follow the Interactive Prompts
+##  Then Follow the Interactive Prompts
 
 
 Enter beam length L (m): 10<br>
@@ -39,7 +39,7 @@ Enter second load W2 (kN): 20<br>
 Enter distance between loads x (m): 3<br>
 
 ## After entering the values, the analysis results will be shown.
-## 📌 Sample Output
+## Sample Output
 
 Results:<br>
 Maximum Reaction at A: 33.00 kN (at W1 position = 0.00 m)<br>
@@ -51,7 +51,7 @@ Maximum Shear Force occurs when W1 is at position y = 0.00 m<br>
 Maximum Bending Moment BM_max: 123.75 kN·m (at position 5.00 m)<br>
 Maximum Bending Moment occurs when W1 is at position z = 4.79 m<br>
 
-## 📈 Influence Line Plots
+## Influence Line Plots
 After the results are displayed, the script asks if you'd like to visualize the influence lines
 
 Would you like to see influence line plots? (y/n): y
@@ -62,11 +62,11 @@ Influence Line for Reactions at A and B<br>
 Influence Line for Shear Force at Mid-span<br>
 Influence Line for Bending Moment at Mid-span<br>
 
-## 🖼️ Example Plots
+##  Example Plots
 ## Intensive line diagram
 [![intensive-line-diagram.png](https://i.postimg.cc/NMDgSKwq/intensive-line-diagram.png)](https://postimg.cc/0M6RJ2Qc)
 
-## 🧠 How It Works
+##  How It Works
 This program simulates moving loads by shifting two point loads across a simply supported beam and computing:
 
 Reactions using ILD (linear proportion based on position)  <br>
@@ -74,22 +74,23 @@ Shear Force and Bending Moment at each point  <br>
 It uses a finely spaced numpy.linspace for smooth transitions and accurate peak detections  <br>
 
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
-Python 🐍<br>
-NumPy 📐<br>
-Matplotlib 📊<br>
+Python <br>
+NumPy <br>
+Matplotlib <br>
 
-## 📚 Applications
-Civil Engineering structural analysis  <br>  
-Academic projects and assignments  <br>  
-Understanding ILD behavior for beams  <br> 
+##  Applications
+
+Civil Engineering structural analysis  
+Academic projects and assignments  
+Understanding ILD behavior for beams
 
 
-## 🙋‍♂️ Author
+##  Author
 Created by Chandan K Vasista
 
-## 📄 License
-MIT License - feel free to use and modify.
+##  License
+MIT License - Feel free to use and modify.
 
 
